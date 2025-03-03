@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Div dan Span</title>
+    <link rel="icon" type="image/png" href="gambar/icon.png" sizes="">
+</head>
+<body>
+    <div id="header">
+        <h1>Judul/Header Website</h1>
+    </div>
+
+    <div id="main">
+        <div id="link">
+            <ul>
+                <li><a href="#">London</a></li>
+                <li><a href="#">Paris</a></li>
+                <li><a href="#">Tokyo</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="content">
+        <fieldset>
+            <legend>Form Pendaftaran Mahasiswa Baru</legend>
+            <form>
+                <table style="width: 100%;">
+                    <tr>
+                        <td><label for="nama">Nama Lengkap</label></td>
+                        <td><input type="text" id="nama" name="nama"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="ttl">Tempat/Tanggal Lahir</label></td>
+                        <td>
+                            <input type="text" id="ttl" name="ttl">
+                            <input style="width: 32px;" type="number">
+                            <input style="width: 32px;" type="number">
+                            <input style="width: 50px;" type="number" value="1989-1994">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="agama">Agama</label></td>
+                        <td>
+                            <select id="agama" name="agama">
+                                <option value="">Pilih</option>
+                                <option>Islam</option>
+                                <option>Kristen</option>
+                                <option>Katolik</option>
+                                <option>Hindu</option>
+                                <option>Buddha</option>
+                                <option>Konghucu</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td>
+                            <input type="radio" name="jk" value="L"> Laki-laki
+                            <input type="radio" name="jk" value="P"> Perempuan
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="ijazah">No. Ijazah SMA/MA</label></td>
+                        <td><input type="text" id="ijazah" name="ijazah"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="foto">Foto (Ukuran File Maks. 20 KB)</label></td>
+                        <td><input type="file" id="foto" name="foto"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="ayah">Nama Ayah</label></td>
+                        <td><input type="text" id="ayah" name="ayah"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="ibu">Nama Ibu</label></td>
+                        <td><input type="text" id="ibu" name="ibu"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="alamat">Alamat Rumah</label></td>
+                        <td><textarea id="alamat" name="alamat"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="telp">No. Telp</label></td>
+                        <td><input type="text" id="telp" name="telp"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="sekolah">Nama Sekolah Asal</label></td>
+                        <td><input type="text" id="sekolah" name="sekolah"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="alamat_sekolah">Alamat Sekolah Asal</label></td>
+                        <td><textarea id="alamat_sekolah" name="alamat_sekolah"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="jurusan">Jurusan Dipilih</label></td>
+                        <td>
+                            <select id="jurusan" name="jurusan">
+                                <option value="">Pilih</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Tahu informasi ini dari:</td>
+                        <td>
+                            <input type="checkbox" name="info" value="Koran"> Koran
+                            <input type="checkbox" name="info" value="Website"> Website
+                            <input type="checkbox" name="info" value="Televisi"> Televisi
+                            <input type="checkbox" name="info" value="Radio"> Radio
+                            <input type="checkbox" name="info" value="Teman"> Teman
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button type="submit">DAFTAR</button>
+                            <button type="reset">BATAL</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+    </div>
+    
+</body>
+
+</html>
